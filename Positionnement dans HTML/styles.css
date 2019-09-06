@@ -1,0 +1,64 @@
+div{
+	width:600px;
+	height:200px;
+	margin:auto;
+}
+
+.text-red{
+	color:red;
+}
+
+
+#main{
+	background:#CCC;
+}
+	#main header{
+		width:350px;
+		border:1px solid #000;
+		float:left;
+	}
+	#main nav{
+		border:1px solid #000;
+		
+	}
+	
+
+#second{
+	background:#FCC;
+}
+	#second header{
+		width:350px;
+		border:1px solid #000;
+		display: inline-block; /* block, inline, inline-block, none*/
+		vertical-align:top; /* middle, bottom, baseline*/
+	}
+	#second nav{
+		border:1px solid #000;
+		display: inline-block;
+		width:242px;
+		
+	}
+
+
+#trois{
+	background:#CFC;
+}
+	#trois p{
+		
+		position:relative; /* static(defaut), relative, absolute, fixed */
+		left:25px;
+		top:36px;
+		/* mais aussi right et bottom */
+	}
+
+
+
+#quatre{
+	background:#CCF;
+	position:relative;
+}
+	#quatre p{
+		position:absolute; /* static(defaut), relative, absolute, fixed */
+		left:25px;
+		top:36px;
+	}
