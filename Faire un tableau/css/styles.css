@@ -1,0 +1,13 @@
+body{
+	margin:0; /* suppr marge par defaut */
+}
+
+
+table{
+	border-collapse:collapse; /* */
+}
+	td, th{
+		border:1px solid #000;
+		padding:10px;
+		vertical-align:top; /* middle (defaut), top, bottom, baseline */
+	}
